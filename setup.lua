@@ -12,7 +12,7 @@ end
 
 function getPackageUrl(packageindex)
 	local package = packageindex
-	return string.format("https://raw.githubusercontent.com/eid129121/xpm/main/packages/%s.lua", package or game:HttpGet(string.format("https://raw.githubusercontent.com/boyangsic/xpm/main/packages/%s/latest",package)))
+	return string.format("https://raw.githubusercontent.com/eid129121/xpm/main/packages/%s.lua", package or game:HttpGet(string.format("https://raw.githubusercontent.com/eid129121/xpm/main/packages/%s/latest",package)))
 end
 
 
